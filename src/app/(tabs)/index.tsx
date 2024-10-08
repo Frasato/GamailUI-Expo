@@ -1,3 +1,4 @@
+import { Avatar } from "@/components/avatar";
 import { Input } from "@/components/input";
 import { MenuButton } from "@/components/menu-button";
 import React from "react";
@@ -9,6 +10,7 @@ export default function Home(){
             <Input>
                 <MenuButton />
                 <Input.Field placeholder="Search on e-mail" />
+                <Avatar source={{uri: "https://github.com/Frasato.png"}} size="small"/>
             </Input>
         </View>
     );
