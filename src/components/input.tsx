@@ -16,7 +16,12 @@ function Input({children}: InputProps){
 
 function InputField({...rest}: TextInputProps){
     return(
-        <TextInput className="flex-1 font-normal text-base text-white" placeholderTextColor={colors.gray[400]} {...rest}/>
+        <TextInput 
+            className="flex-1 font-normal text-base text-white"
+            placeholderTextColor={colors.gray[400]}
+            cursorColor={colors.blue[600]}
+            {...rest}
+        />
     )
 }
 
