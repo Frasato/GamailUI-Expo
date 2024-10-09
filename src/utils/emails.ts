@@ -28,5 +28,59 @@ export const EMAILS = [
         message: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
         star: false,
         date: "March 12"
-    }
+    },
+    {
+        id: "4",
+        name: "Ted Steve",
+        avatar: "https://mighty.tools/mockmind-api/content/human/57.jpg",
+        subject: "Where does it come from?",
+        message: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        star: false,
+        date: "March 12"
+    },
+    {
+        id: "5",
+        name: "Ted Steve",
+        avatar: "https://mighty.tools/mockmind-api/content/human/7.jpg",
+        subject: "Where does it come from?",
+        message: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        star: false,
+        date: "March 12"
+    },
+    {
+        id: "6",
+        name: "Ted Steve",
+        avatar: "https://mighty.tools/mockmind-api/content/human/2.jpg",
+        subject: "Where does it come from?",
+        message: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        star: false,
+        date: "March 12"
+    },
+    {
+        id: "7",
+        name: "Ted Steve",
+        avatar: "https://mighty.tools/mockmind-api/content/human/2.jpg",
+        subject: "Where does it come from?",
+        message: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        star: false,
+        date: "March 12"
+    },
+    {
+        id: "8",
+        name: "Ted Steve",
+        avatar: "https://mighty.tools/mockmind-api/content/human/2.jpg",
+        subject: "Where does it come from?",
+        message: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        star: false,
+        date: "March 12"
+    },
+    {
+        id: "9",
+        name: "Ted Steve",
+        avatar: "https://mighty.tools/mockmind-api/content/human/2.jpg",
+        subject: "Where does it come from?",
+        message: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        star: false,
+        date: "March 12"
+    },
 ]
