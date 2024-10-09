@@ -1,5 +1,6 @@
 import { DrawerContentComponentProps } from "@react-navigation/drawer";
 import { View, Image, ScrollView } from "react-native";
+import { DrawerButton } from "./drawer-button";
 
 export function DrawerContent(drawerProps: DrawerContentComponentProps){
     return(
@@ -18,7 +19,9 @@ export function DrawerContent(drawerProps: DrawerContentComponentProps){
                         }
 
                         return(
-                            <View key={index}/>
+                            <View key={route.key}>
+                                <DrawerButton />
+                            </View>
                         )
                     })}
                 </View>
