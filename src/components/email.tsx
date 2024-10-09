@@ -21,7 +21,7 @@ export function Email({data}: EmailProps){
                 <Text className="text-base font-body text-gray-400" numberOfLines={1} lineBreakMode="tail">{data.subject}</Text>
                 <View className="flex-row items-center gap-4">
                     <Text className="text-base font-body text-gray-400 flex-1" numberOfLines={1} lineBreakMode="tail">{data.message}</Text>
-                    <MaterialIcons name="star" size={22} color={colors.blue[600]} />
+                    {data.star? <MaterialIcons name="star" size={22} color={colors.yellow[600]} /> : <MaterialIcons name="star-outline" size={22} color={colors.blue[600]}/>}
                 </View>
             </View>
         </View>
