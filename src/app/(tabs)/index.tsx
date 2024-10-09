@@ -4,7 +4,7 @@ import { Input } from "@/components/input";
 import { MenuButton } from "@/components/menu-button";
 import { EMAILS } from "@/utils/emails";
 import React from "react";
-import { View, FlatList } from "react-native";
+import { View, FlatList, Text } from "react-native";
 
 export default function Home(){
     return(
@@ -19,6 +19,10 @@ export default function Home(){
                 data={EMAILS}
                 keyExtractor={item => item.id}
                 renderItem={({item}) => <Email data={item}/>}
+                contentContainerClassName="gap-6"
+                ListHeaderComponent={()=> <Text className="uppercase text-gray-400 text-sm font-subtitle mt-6">
+                    Your E-mails
+                </Text>}
             />
         </View>
     );
