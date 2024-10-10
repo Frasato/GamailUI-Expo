@@ -23,7 +23,7 @@ export function DrawerContent(drawerProps: DrawerContentComponentProps){
 
                         return(
                             <View key={route.key}>
-                                <DrawerButton />
+                                <DrawerButton title="All E-mails" iconName="email" />
                             </View>
                         )
                     })}
