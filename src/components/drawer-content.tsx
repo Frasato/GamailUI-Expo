@@ -1,6 +1,6 @@
 import { DrawerContentComponentProps } from "@react-navigation/drawer";
 import { View, Image, ScrollView } from "react-native";
-import { DrawerButton } from "./drawer-button";
+import { DrawerButton } from "@/components/drawer-button";
 
 export function DrawerContent(drawerProps: DrawerContentComponentProps){
     return(
@@ -8,8 +8,11 @@ export function DrawerContent(drawerProps: DrawerContentComponentProps){
             <View className="mt-20 w-full border-b pb-6 border-gray-500">
                 <Image source={require('@/assets/logo.png')} className="w-28 ml-5" resizeMode="contain"/>
             </View>
-            <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{paddingBottom: 42}}>
-                <View>
+            <ScrollView
+                showsVerticalScrollIndicator={false} 
+                contentContainerStyle={{paddingBottom: 42}}
+            >
+                <View className="mt-2">
                     {drawerProps.state.routes.map((route, index)=>{
                         const isFocused = drawerProps.state.index === index;
                         const option = drawerProps.descriptors[route.key].options
